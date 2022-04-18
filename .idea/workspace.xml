@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1ea28b-87b9-4385-b11a-00e57b34a03f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/routes/UsersModuleRoutes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/goLayoutApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/routes/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/controllers/users/UsersController.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/controllers/users/UsersController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/requests/users/StoreUserRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/requests/users/StoreUserRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/requests/users/UpdateUserRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/requests/users/UpdateUserRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/routes/UsersModuleRoutes.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/routes/UsersModuleRoutes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/services/users/UsersService.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/services/users/UsersService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/internal/requests/users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/requests/users" />
       <recent name="$PROJECT_DIR$/build/docker/dev" />
       <recent name="$PROJECT_DIR$/cmd/app/api" />
       <recent name="$PROJECT_DIR$/build/docker/dev/go" />
