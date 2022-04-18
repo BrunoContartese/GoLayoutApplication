@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce1ea28b-87b9-4385-b11a-00e57b34a03f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/controllers/users/UsersController.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/controllers/users/UsersController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/requests/users/StoreUserRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/requests/users/StoreUserRequest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/requests/users/UpdateUserRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/requests/users/UpdateUserRequest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/routes/UsersModuleRoutes.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/routes/UsersModuleRoutes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/services/users/UsersService.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/services/users/UsersService.go" afterDir="false" />
-    </list>
+    <list default="true" id="ce1ea28b-87b9-4385-b11a-00e57b34a03f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
