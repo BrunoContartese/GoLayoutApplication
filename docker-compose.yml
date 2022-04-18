@@ -1,0 +1,52 @@
+version: '3.8'
+services:
+  nginx:
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: always
+    image: nginx:alpine
+    container_name: go-layout-app-nginx
+    volumes:
+      - .:/var/www/html
+      - ./build/docker/dev/nginx/local.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      #- "3001:80"
+      - "80:80"
+      - "443:443"
+    extra_hosts:
+      - "layoutapp.test:127.0.0.1"
+      - "layoutapp.local:127.0.0.1"
+  go:
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: always
+    container_name: go-layout-app
+    build:
+      context: ./
+      target: dev
+      dockerfile: ./build/docker/dev/go/Dockerfile
+    depends_on: 
+        #- nginx
+        - postgresql
+    volumes: 
+      - ./:/go/src/github.com/BrunoContartese/GoLayoutApplication
+    ports: 
+      - "9000:9000"
+    env_file:
+      - ./.env
+  postgresql:
+    image: postgres:latest
+    container_name: layoutapp-postgresql
+    env_file: 
+      - ./.env
+    ports: 
+      - '5432:5432'
+
+networks: 
+  default:
+    external: 
+      name: docker_default
