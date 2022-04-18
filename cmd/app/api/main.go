@@ -1,6 +1,6 @@
 package main
 
-import "salescrm/internal/app/cli"
+import "layoutapp/internal/app/cli"
 
 func main() {
 	cli.Migrate()

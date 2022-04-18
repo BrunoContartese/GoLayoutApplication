@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"salescrm/internal/controllers/users"
+	"layoutapp/internal/controllers/users"
 )
 
 func SetupRoutes(app *fiber.App) {

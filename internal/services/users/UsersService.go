@@ -1,6 +1,6 @@
 package users
 
-import "salescrm/internal/models"
+import "layoutapp/internal/models"
 
 func Index() []models.User {
 	var users []models.User
